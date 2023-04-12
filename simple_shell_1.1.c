@@ -104,4 +104,9 @@ int unset_environment_variable(const char *variable) {
     }
     if (unsetenv(variable) != 0) {
         perror("unsetenv");
-       
+        return -1;
+    }
+
+    // Add the missing return statement.
+    return 0;
+}
