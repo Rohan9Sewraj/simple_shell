@@ -105,3 +105,12 @@ int main() {
                 execvp(args[0], args);
                 perror("execvp");
                 exit(1);
+            } else {
+                // Parent process
+                wait(NULL);
+            }
+        }
+    }
+
+    return 0;
+}
