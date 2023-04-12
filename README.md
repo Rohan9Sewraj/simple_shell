@@ -1,4 +1,5 @@
 Project Title: 0x16. C - Simple Shell
+
 Description
 This is a collaborative project by Rohan Sewraj and Shaline Msole, which is part of the curriculum for the Holberton School Full Stack Software Engineering program. It involves creating a simple shell program in C that emulates the basic functionalities of the Unix shell, such as executing commands, managing processes, and handling I/O redirection.
 
