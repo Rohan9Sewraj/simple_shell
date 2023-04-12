@@ -104,4 +104,11 @@ int main() {
 
             pid_t pid = fork();
             if (pid < 0) {
-                perror
+                perror("fork");
+                exit(EXIT_FAILURE);
+            } else if (pid == 0) {
+                // Child process
+                execvp(args[0], args);
+                perror("execvp");
+                exit(EXIT_FAILURE);
+           
