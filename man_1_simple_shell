@@ -1,4 +1,4 @@
-.TH man 1 "16 Nov 2022" "0.1" "simple_shell man page"
+.TH man 1 "25 April 2023" "0.1" "simple_shell man page"
 
 .SH NAME
 .B simple_shell
@@ -40,4 +40,4 @@ Single space required after argument.
 
 
 .SH AUTHOR
-Godswill Kalu, Vatalis Ibeh.
+Rohan Sewraj & Shaline Msole
