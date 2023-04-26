@@ -54,7 +54,6 @@ char **list_to_strings(list_t *head)
 	return (strs);
 }
 
-
 /**
  * print_list - prints all elements of a list_t linked list
  * @h: pointer to first node
